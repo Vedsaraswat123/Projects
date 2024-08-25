@@ -1,0 +1,18 @@
+
+<web-app>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>LoginServelet</servlet-name>
+		<display-name>LoginServelet</display-name>
+		<description></description>
+		<servlet-class>cscomer.LoginServelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServelet</servlet-name>
+		<url-pattern>/LoginServelet</url-pattern>
+	</servlet-mapping>
+</web-app>
